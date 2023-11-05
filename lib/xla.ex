@@ -76,7 +76,7 @@ defmodule XLA do
           ]
 
         "rocm" <> _ ->
-          ["--config=rocm", "--action_env=HIP_PLATFORM=hcc"]
+          ["--config=rocm", "--action_env=HIP_PLATFORM=amd"]
 
         "tpu" <> _ ->
           ["--config=tpu"]
